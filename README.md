@@ -1,8 +1,18 @@
+
 # DataDependencyDemo-tSQLt-SSDT
 
-A Visual Studio SSDT (SQL Server Data Tools) database unit testing demo using tSQLt to show why data depedency should be prevented while writing a good database unit test.
+A Visual Studio SSDT (SQL Server Data Tools) database unit testing Demo using tSQLt to show why data depedency should be prevented while writing a good database unit test.
 
-[comment]: <> ![Screenshot](https://github.com/haroonashraf/BestBooksTDD-SSDT/BestBooksTDD-SSDT-screenshot.png)
+![Screenshot](https://github.com/haroonashraf/BestBooksTDD-SSDT/blob/master/DataDependencyDemo-tSQLt-SSDT-screenshot.png)
+
+### Data Dependency: 
+When a unit test depends on the data of the database then it is said to have data dependency which must be prevented.
+	
+### Standard Practice:
+A good database unit test should have no data dependency to remain robust and consistent.
+
+![Screenshot](https://github.com/haroonashraf/BestBooksTDD-SSDT/blob/master/DataDependencyDemo-tSQLt-SSDT-screenshot2.png)
+
 
 ## Install
 
@@ -26,7 +36,7 @@ EXEC tsqlt.RunTestClass @TestClassName = N'MainTests' -- nvarchar(max)
 
 What to do if my automated tSQLt unit tests do not run when I debug my solution?  
 
-Please make sure that you have selected "Multiple startup projects" under Startup Project Properties in Solution settings [comment]: <> ![Screenshot] (https://github.com/haroonashraf/BestBooksTDD-SSDT/BestBooksTDD-SSDT-setup.png)
+Please make sure that you have selected "Multiple startup projects" under Startup Project Properties in Solution settings 
 
 ## Contributing
 
@@ -35,3 +45,8 @@ If you'd like to contribute to this Project, please feel free to let me know.
 ## License
 
 [MIT License](./LICENSE)
+
+## Credits
+<a href="https://app.pluralsight.com/library/courses/unit-testing-t-sql-tsqlt/table-of-contents">Unit Testing T-SQL Code with tSQLt </a>
+by Dave Green
+
