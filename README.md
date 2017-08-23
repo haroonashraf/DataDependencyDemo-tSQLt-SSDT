@@ -3,7 +3,7 @@
 
 A Visual Studio SSDT (SQL Server Data Tools) database unit testing Demo using tSQLt to show why data depedency should be prevented while writing a good database unit test.
 
-![Screenshot](https://github.com/haroonashraf/BestBooksTDD-SSDT/blob/master/DataDependencyDemo-tSQLt-SSDT-screenshot.png)
+![Screenshot](https://github.com/haroonashraf/DataDependencyDemo-tSQLt-SSDT/blob/master/DataDependencyDemo-tSQLt-SSDT-Screenshot2.png)
 
 ### Data Dependency: 
 When a unit test depends on the data of the database then it is said to have data dependency which must be prevented.
@@ -11,7 +11,7 @@ When a unit test depends on the data of the database then it is said to have dat
 ### Standard Practice:
 A good database unit test should have no data dependency to remain robust and consistent.
 
-![Screenshot](https://github.com/haroonashraf/BestBooksTDD-SSDT/blob/master/DataDependencyDemo-tSQLt-SSDT-screenshot2.png)
+![Screenshot](https://github.com/haroonashraf/DataDependencyDemo-tSQLt-SSDT/blob/master/DataDependencyDemo-tSQLt-SSDT-Screenshot.png)
 
 
 ## Install
